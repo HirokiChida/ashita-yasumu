@@ -23,3 +23,8 @@ npm run export
 ```
 
 `out/` 配下の内容を GitHub Pages にデプロイしてください。
+
+## GitHub Pages 自動デプロイ
+
+`.github/workflows/pages.yml` を用意しているので、`main` への push で自動的に
+GitHub Pages へデプロイされます。
